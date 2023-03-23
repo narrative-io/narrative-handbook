@@ -1,3 +1,4 @@
+# defaults from docus
 node_modules
 *.iml
 .idea
@@ -10,3 +11,6 @@ dist
 sw.*
 .env
 .output
+
+# custom
+.vite/
