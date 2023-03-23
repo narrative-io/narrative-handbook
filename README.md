@@ -35,3 +35,9 @@ The project has been initially setup using [Docus](https://docus.dev/), which re
 ```
 pnpm dlx nuxi init -t themes/docus
 ```
+
+## Deploy
+
+```bash
+cd docs && pnpm run generate && pnpm run deploy
+```

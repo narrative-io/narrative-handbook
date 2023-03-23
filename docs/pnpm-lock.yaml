@@ -5,12 +5,14 @@ specifiers:
   '@nuxt/eslint-config': ^0.1.1
   eslint: ^8.35.0
   nuxt: ^3.2.2
+  push-dir: ^0.4.1
 
 devDependencies:
   '@nuxt-themes/docus': 1.9.9_nuxt@3.3.1
   '@nuxt/eslint-config': 0.1.1_eslint@8.36.0
   eslint: 8.36.0
   nuxt: 3.3.1_eslint@8.36.0
+  push-dir: 0.4.1
 
 packages:
 
@@ -4825,6 +4827,10 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
+  /minimist/1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: true
+
   /minipass/3.3.6:
     resolution: {integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==}
     engines: {node: '>=8'}
@@ -5906,6 +5912,14 @@ packages:
   /punycode/2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
+    dev: true
+
+  /push-dir/0.4.1:
+    resolution: {integrity: sha512-Nrrsly0c3kCfu725Jnif/s5adHpBwKCGWBttHVxTndF4iyGBSFtNi/pduFxHF5ks0kWtHcbA3XXP5MEra6iiCA==}
+    engines: {node: '>=0.12'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.8
     dev: true
 
   /queue-microtask/1.2.3:
