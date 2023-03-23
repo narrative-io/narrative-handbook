@@ -41,3 +41,7 @@ pnpm dlx nuxi init -t themes/docus
 ```bash
 cd docs && pnpm run generate && pnpm run deploy
 ```
+
+The docs provide two static files that are needed to get the static site to work on Github Pages:
+- `public/CNAME`: Needed to configure the domain name that the site should be accessible from
+- `public/.nojekyll`: See https://github.com/nuxt/nuxt/issues/12480
