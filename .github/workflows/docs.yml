@@ -1,0 +1,48 @@
+on:
+  push:
+  pull_request:
+name: docs
+jobs:
+  build-publish-docs:
+    strategy:
+      matrix:
+        # os: [self-hosted]
+        # Using our self-hosted workers leads to the following error during the setup-node action: 
+        # /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
+        os: [ubuntu-latest]
+        node-version: [18.15.0]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.0.0
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
+          cache-dependency-path: ./docs/pnpm-lock.yaml
+      - name: Install node modules
+        run: pnpm install # --frozen-lockfile
+        working-directory: ./docs
+      - name: Generate static website
+        run: pnpm run generate
+        working-directory: ./docs
+      # Alternative when the project is configured to publish with a custom GitHub Actions workflow (instead of publishing from the gh-pages branch)
+      # - doc: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+      # - sample: https://github.com/actions/starter-workflows/blob/main/pages/nuxtjs.yml
+      # Uses the following actions:
+      # - https://github.com/actions/configure-pages (not sure if it is compatible with Nuxt 3)
+      # - https://github.com/actions/upload-pages-artifact ()
+      # - https://github.com/actions/deploy-pages
+      #
+      # See https://github.com/marketplace/actions/github-pages-action
+      # Another action with similar functionality: https://github.com/marketplace/actions/deploy-to-github-pages
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
