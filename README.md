@@ -10,7 +10,6 @@ Narrative Employee Handbook
     asdf plugin add nodejs
     asdf install
     asdf reshim
-    npm install -g npm@9.5.0
     npm install -g pnpm
     ```
 3. Install dependencies
@@ -38,9 +37,13 @@ pnpm dlx nuxi init -t themes/docus
 
 ## Deploy
 
+To deploy manually:
+
 ```bash
 cd docs && pnpm run generate && pnpm run deploy
 ```
+
+To deploy automatically, simply push code to the `main` branch and the Github Actions `docs` Workflow will take care of the deployment.
 
 The docs provide two static files that are needed to get the static site to work on Github Pages:
 - `public/CNAME`: Needed to configure the domain name that the site should be accessible from
