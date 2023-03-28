@@ -48,3 +48,8 @@ To deploy automatically, simply push code to the `main` branch and the Github Ac
 The docs provide two static files that are needed to get the static site to work on Github Pages:
 - `public/CNAME`: Needed to configure the domain name that the site should be accessible from
 - `public/.nojekyll`: See https://github.com/nuxt/nuxt/issues/12480
+
+Also worth mentioning: the docs workflow does not use the self-hosted Github runners because using crashes with the following error:
+```
+/lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
+```
