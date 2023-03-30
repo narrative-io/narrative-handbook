@@ -10,7 +10,14 @@ Removal of assets that mandatory legal and regulatory requirements of critical b
 
 
 ```
-- [ ] When removing an asset, if the asset contains data, has the [Data Asset Retirement](../playbooks/asset-management.md#data-asset-retirement) process been followed?
+- [ ] When removing an asset, if the asset contains data, has the [Data Asset Retirement](../playbooks/asset-management#data-asset-retirement) process been followed?
+```
+
+## Backups and Data Retention
+
+```
+- [ ] When creating Cloudwatch Log Groups, is the data kept for 3 years, as instructed in the [Backup Playbook](/playbooks/backup)
+- [ ] When creating a RDS Database, is the data backed up to a different AWS region, , as instructed in the [Backup Playbook](/playbooks/backup)
 ```
 
 ## Maintainability
@@ -25,7 +32,7 @@ Removal of assets that mandatory legal and regulatory requirements of critical b
 ## Monitoring
 
 ```
-- [ ] Have the monitoring infrastructure and alarms been updated to support the [Monitoring and Maintenance](../playbooks/sdlc.md#monitoring-and-maintenance) needs?
+- [ ] Have the monitoring infrastructure and alarms been updated to support the [Monitoring and Maintenance](../playbooks/software-development-life-cycle#monitoring-and-maintenance) needs?
 ```
 
 ## Security
