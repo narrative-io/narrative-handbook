@@ -15,8 +15,8 @@ Performed by Security Officer
 Onboarding, Offboarding, Additional Permissions, MFA Reset, or Password Reset  Procedures:
 
 - Initiate the access request by creating a ticket in [:icon{name="openmoji:locked"} Shortcut](https://app.shortcut.com/) 
-  - that is assigned to the [:icon{name="openmoji:locked"} System Access Control project](https://app.shortcut.com/narrativeio/project/21116/system-access-control) 
-  - using the [:icon{name="openmoji:locked"} System Access Control - Access Change](https://app.shortcut.com/narrativeio/stories/new?template_id=63f8d92d-ac8c-4707-aac4-132826e1c3ff) Story Template.
+  - that is assigned to the [:icon{name="openmoji:locked"} System Access Control label](https://app.shortcut.com/narrative-security/label/22180) 
+  - using the [:icon{name="openmoji:locked"} System Access Control - Access Change](https://app.shortcut.com/narrative-security/stories/new?template_id=642acd0f-9402-4b7b-b327-0ddcac45f4b4) Story Template.
 - Perform extra steps for the specific request type
 - Complete the ticket
   - If the request is rejected, it goes back for further review and documentation.
@@ -44,8 +44,8 @@ Information that must be provided in the ticket:
 Performed by Security Officer
 
 - Once a year, in January, initiate the review of user access by creating a ticket in [:icon{name="openmoji:locked"} Shortcut](https://app.shortcut.com/)
-  - that is assigned to the [:icon{name="openmoji:locked"} System Access Control project](https://app.shortcut.com/narrativeio/project/21116/system-access-control) 
-  - from the [:icon{name="openmoji:locked"} System Access Control - Access Review Story Template](https://app.shortcut.com/narrativeio/stories/new?template_id=63f8db18-ba3a-46f3-b2aa-73975befcafc)
+  - that is assigned to the [:icon{name="openmoji:locked"} System Access Control label](https://app.shortcut.com/narrative-security/label/22180) 
+  - from the [:icon{name="openmoji:locked"} System Access Control - Access Review Story Template](https://app.shortcut.com/narrative-security/stories/new?template_id=642acecb-21d7-479d-a60a-547dd7107cea)
 - Review levels of access for each workforce member
 - If user access is found during review that is not in line with the least privilege principle, modify user access and notify the user of access changes
 - Mark the ticket as “Done”, adding any pertinent notes required.

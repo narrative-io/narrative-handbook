@@ -53,7 +53,7 @@ The development environment is used to perform manual testing prior to deploymen
 An automated test suite runs on the CI server ([Github Actions](https://github.com/features/actions)), and these tests may be executed before or after the merge of the code to the main branch, depending on the circumstances. We do not commit to running all tests before merging for productivity concerns, but the developer merging
 a build that eventually fails is responsible for fixing the build.
 
-In general, testing should not be done with production data, but when there is a good reason to do so, the Information Resource Owner needs to provide approval. Approval is requested by creating a ticket in the [:icon{name="openmoji:locked"} Information Owner Resource Requests](https://app.shortcut.com/narrativeio/project/21302/process-exception-requests) project
+In general, testing should not be done with production data, but when there is a good reason to do so, the Information Resource Owner needs to provide approval. Approval is requested by creating a ticket in the [:icon{name="openmoji:locked"} Information Owner Resource Requests](https://app.shortcut.com/narrativeio/label/22187) label
 using the [:icon{name="openmoji:locked"} Information Owner Resource Requests - Testing With Production Data story template](https://app.shortcut.com/narrativeio/stories/new?template_id=6406411b-f4e2-41b0-98e1-812fbc408917)
 
 ## Deployment
