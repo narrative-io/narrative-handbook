@@ -39,7 +39,7 @@ Performed by role: Security Officer
 4. Provide then with guidelines which state security expectations of their role within the organization;
 5. (Onboarding of developers only) Have the new developer complete the [OWASP Top 10 training](https://www.udemy.com/course/an-introduction-to-owasp-top-10-vulnerabilities/)
   - Create a ticket in [Shortcut](https://app.shortcut.com/)
-    - that is assigned to the [:icon{name="openmoji:locked"} Training Sessions project](https://app.shortcut.com/narrativeio/project/21268/training-sessions)
+    - that is assigned to the [:icon{name="openmoji:locked"} Training Sessions label](https://app.shortcut.com/narrativeio/label/22181)
     - using the [:icon{name="openmoji:locked"} Security Training - OWASP Top 10](https://app.shortcut.com/narrativeio/stories/new?template_id=6400e5bc-b86a-484c-84b1-a53ea02484d4) Story Template
     - assigned to the developer being onboarded
   - Track to completion
