@@ -50,7 +50,7 @@ export default {
       <icon name="openmoji:github" />
     </ProseA>
     <icon name="majesticons:more-menu-vertical" />
-    <ProseA href="https://app.drata.com/policy-builder/5">Drata Policy
+    <ProseA :href="drataPolicyUrl">Drata Policy
       <icon name="carbon:ibm-cloud-security-compliance-center" />
   </ProseA>
 </span></template>
