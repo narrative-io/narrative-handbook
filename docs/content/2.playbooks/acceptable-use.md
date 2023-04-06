@@ -9,6 +9,6 @@ This document describes the processes that support the following company policie
 ::alert{type="info"}
 Related playbooks:
 - [Hiring](/playbooks/hiring)
-- [Onboarding](/playbooks/system-access-control#onboarding-procedure)
-- [Offboarding](/playbooks/system-access-control#offboarding-procedure)
+- [Onboarding](/playbooks/hiring#onboarding)
+- [Offboarding](/playbooks/hiring#offboarding)
 ::
