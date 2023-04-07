@@ -9,6 +9,10 @@ This document describes the processes that support the following company policie
 - :PolicyLinks{policy-name="Software Development Life Cycle (SDLC) Policy" policy-slug="software-development-life-cycle-policy" :drata-policy-id="5"}
 ::
 
+::alert{type="danger"}
+TODO: review and incorporate the relevant part of the [:icon{name="openmoji:locked"} Processes](https://www.notion.so/Processes-33a75c8aece54c6cb7593a649469f980) page.
+::
+
 ## General Principles
 
 The planning, development, testing, deployment, and maintenance cycles are performed iteratively. 
