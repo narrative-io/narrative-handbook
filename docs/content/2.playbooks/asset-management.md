@@ -29,3 +29,14 @@ The ticket must contain the following information
 
 > Before retiring/replacing any asset that retains data, data retention requirements for all data stored or managed by that asset must be reviewed, and a plan for complying with all applicable data retention requirements must be developed and executed. This is particularly important for assets that manage data subject to legal/regulatory scrutiny. Any data subject to data retention requirements must be migrated to an appropriate destination and tested for appropriateness, completeness, accessibility and retrievability from the destination before the original data is deleted from the original asset as part of the system retirement process. 
 
+## Disposal of Sensitive Data on Hardware
+
+This section describes the procedures to dispose of sensitive data when hardware is returned following a termination or upgrade.
+
+### Computers
+
+Follow [Apple's procedure to erase the Mac](https://support.apple.com/en-us/HT212030)
+
+### USB Hard Drives
+
+Follow [Apple's procedure to erase the USB's disk partition](https://support.apple.com/guide/disk-utility/partition-a-physical-disk-dskutl14027/mac)
