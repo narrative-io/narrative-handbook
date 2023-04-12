@@ -147,7 +147,8 @@ The following activities should be completed within 30 days of the employee bein
    - Assign the [:icon{name="openmoji:locked"} Hiring Label](https://app.shortcut.com/narrative-security/label/22435) to it
    - [Kick-off the account deprovisioning process](/playbooks/system-access-control#account-deprovisioning)
    - Kandji: [Lock and erase device](https://support.kandji.io/support/solutions/articles/72000560469-lock-device-and-erase-device)
-   - Arrange return of Narrative-owned devices
+   - Arrange return of Narrative-owned devices and hardware
+   - Upon return of the devices, follow the [Disposal of Sensitive Data on Hardware procedure](/playbooks/asset-management#disposal-of-sensitive-data-on-hardware)
    - Check the tasks as they are completed, and mark the story as done when completed
 
 
