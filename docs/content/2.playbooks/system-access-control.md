@@ -94,8 +94,33 @@ Performed by Security Officer
   - that is assigned to the [:icon{name="openmoji:locked"} System Access Control label](https://app.shortcut.com/narrative-security/label/22180) 
   - from the [:icon{name="openmoji:locked"} System Access Control - Access Review Story Template](https://app.shortcut.com/narrative-security/stories/new?template_id=642acecb-21d7-479d-a60a-547dd7107cea)
 - Review levels of access for each workforce member
+- Summarize the result of the review in the ticket using the [System Access Review Summary table](#system-access-review-summary)
+- Write down any additional remarks or comments in the ticket
 - If user access is found during review that is not in line with the least privilege principle, modify user access and notify the user of access changes
+- Upload evidence to Drata
 - Mark the ticket as “Done”, adding any pertinent notes required.
+
+[Drata's personnel list](https://app.drata.com/governance/personnel?limit=50) is the up to date resource to use to determine the list of current employees.
+
+### System Access Review Summary
+
+The review can be summarized using the following table:
+
+| Service                       | Review Status | Corrective Actions Performed |
+| ----------------------------- | ------------- | ---------------------------- |
+| Google Workspace              |               |                              |
+| Github                        |               |                              |
+| Notion                        |               |                              |
+| Slack                         |               |                              |
+| AWS                           |               |                              |
+| Shortcut (narrative-security) |               |                              |
+| Shortcut (narrative-io)       |               |                              |
+| Cron                          |               |                              |
+| Datadog                       |               |                              |
+| Splunk On-call                |               |                              |
+| Stripe                        |               |                              |
+| Drata                         |               |                              |
+| HubSpot                       |               |                              |
 
 ## Managed Systems
 
