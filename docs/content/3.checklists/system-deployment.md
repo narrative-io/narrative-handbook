@@ -17,7 +17,7 @@ Removal of assets that mandatory legal and regulatory requirements of critical b
 
 ```
 - [ ] When creating Cloudwatch Log Groups, is the data kept for 3 years, as instructed in the [Backup Playbook](/playbooks/backup)
-- [ ] When creating a RDS Database, is the data backed up to a different AWS region, , as instructed in the [Backup Playbook](/playbooks/backup)
+- [ ] When creating a RDS Database, is the data backed up to a different AWS region, as instructed in the [Backup Playbook](/playbooks/backup)
 ```
 
 ## Maintainability
