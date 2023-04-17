@@ -100,7 +100,9 @@ Performed by Security Officer
 - Upload evidence to Drata
 - Mark the ticket as “Done”, adding any pertinent notes required.
 
-[Drata's personnel list](https://app.drata.com/governance/personnel?limit=50) is the up to date resource to use to determine the list of current employees.
+Relevant information:
+- [:icon{name="openmoji:locked"} Drata's personnel list](https://app.drata.com/governance/personnel?limit=50) is the up to date resource to use to determine the list of current employees.
+- The [:icon{name="openmoji:locked"} Account Provisioning Notion page](https://www.notion.so/narrativeio/Account-Provisioning-786cc0f982fd4a32b8da50815e32460e#f09e5058b5d14c92bb099ccac1099bd5) lists who has admin access to each system to perform the review and corrective actions.
 
 ### System Access Review Summary
 
