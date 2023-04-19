@@ -20,11 +20,11 @@ Performed by Security Officer
    - Grant permissions to the [systems that are relevant](#managed-systems) to the user
    - Inform user that MFA should be set-up as soon as possible on all accounts (In particular: Google, AWS, Github)
    - Update account status/info/mappings in Drata
-     
+
 3. Complete the ticket
    - If the request is rejected, it goes back for further review and documentation.
    - If the review is approved, the request is marked as “Done”, and any pertinent notes are added.
-  
+
 ### Account Provisioning Required Info
 Information that must be provided in the ticket:
 
@@ -112,11 +112,13 @@ The review can be summarized using the following table:
 | ----------------------------- | ------------- | ---------------------------- |
 | Google Workspace              |               |                              |
 | Github                        |               |                              |
+| Cloudflare                    |               |                              |
 | Notion                        |               |                              |
 | Slack                         |               |                              |
 | AWS                           |               |                              |
 | Shortcut (narrative-security) |               |                              |
 | Shortcut (narrative-io)       |               |                              |
+| NPM                           |               |                              |
 | Cron                          |               |                              |
 | Datadog                       |               |                              |
 | Splunk On-call                |               |                              |
@@ -131,10 +133,12 @@ This section contains the list of systems relevant to the access change and syst
 See [:icon{name="openmoji:locked"} Account Provisioning (Notion)](https://www.notion.so/narrativeio/Account-Provisioning-786cc0f982fd4a32b8da50815e32460e#87ad528e9281417fb8bc99f231ff9fd5) for help on setting up each of the below:
 - [ ]  Google Workspace
 - [ ]  Github
+- [ ]  Cloudflare
 - [ ]  Notion
 - [ ]  Slack
 - [ ]  AWS
 - [ ]  Shortcut
+- [ ]  NPM
 - [ ]  Cron
 - [ ]  Datadog
 - [ ]  Splunk On-call
