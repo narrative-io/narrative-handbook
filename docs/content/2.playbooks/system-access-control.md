@@ -110,6 +110,7 @@ The review can be summarized using the following table:
 
 | Service                       | Review Status | Corrective Actions Performed |
 | ----------------------------- | ------------- | ---------------------------- |
+| Narrative                     |               |                              |
 | Google Workspace              |               |                              |
 | Github                        |               |                              |
 | Cloudflare                    |               |                              |
@@ -131,6 +132,7 @@ The review can be summarized using the following table:
 This section contains the list of systems relevant to the access change and system access review processes.
 
 See [:icon{name="openmoji:locked"} Account Provisioning (Notion)](https://www.notion.so/narrativeio/Account-Provisioning-786cc0f982fd4a32b8da50815e32460e#87ad528e9281417fb8bc99f231ff9fd5) for help on setting up each of the below:
+- [ ]  Narrative
 - [ ]  Google Workspace
 - [ ]  Github
 - [ ]  Cloudflare
