@@ -6,10 +6,7 @@ jobs:
   build-publish-docs:
     strategy:
       matrix:
-        # os: [self-hosted]
-        # Using our self-hosted workers leads to the following error during the setup-node action: 
-        # /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
-        os: [ubuntu-latest]
+        os: [self-hosted]
         node-version: [18.15.0]
     runs-on: ${{ matrix.os }}
     steps:
