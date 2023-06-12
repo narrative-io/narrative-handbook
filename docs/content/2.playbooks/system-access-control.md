@@ -151,3 +151,16 @@ See [:icon{name="openmoji:locked"} Account Provisioning (Notion)](https://www.no
     - [:icon{name="openmoji:locked"} AWS](https://app.drata.com/manage-accounts/infrastructure?clientType=AWS)
 - [ ]  HubSpot
 
+## Partner Offboarding
+
+1. Initiate the review of user access by creating a ticket in [:icon{name="openmoji:locked"} Shortcut](https://app.shortcut.com/)
+  - that is assigned to the [:icon{name="openmoji:locked"} System Access Control - Partner Offboarding label](https://app.shortcut.com/narrative-security/settings/label/24321) 
+  - using the [:icon{name="openmoji:locked"} System Access Control - Access Review Story Template](https://app.shortcut.com/narrative-security/stories/new?template_id=64878476-351d-4bf4-8517-f2c936a3761c)
+2. Perform the offboarding
+   - Delete relevant `external-*` IAM users (mostly legacy or custom users)
+   - Delete relevant `external-*` IAM roles
+   - Deactivate all datasets owned by the partner. The snapshots will be expired automatically
+   - Delete all Kinesis streams that are specific to the partner's integration (mostly legacy integrations)
+   - Delete all S3 buckets and associated data that are relevant to the partner's integration (mostly legacy integrations)
+   - Remove terraform config for legacy ingestion triggers on legacy buckets
+3. Mark the ticket as “Done”, adding any pertinent notes required
